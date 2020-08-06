@@ -1,27 +1,22 @@
 <template>
   <div class="container">
-    <div class="row">
-      <div class="col s12 12">
-        <Shows />
-      </div>
-      <div class="col s12 m12">
-        <NewShows />
-      </div>
-    </div>
+    <router-view />
+<!--     <Shows /> 
+    <Details /> -->
   </div>
         
 </template>
 
 <script>
-import Shows from './components/Shows.vue'
-import NewShows from './components/NewShows.vue'
+/* import Shows from '@/components/Shows.vue'
+import Details from '@/components/Details.vue' */
 
 export default {
   name: 'App',
-  components: {
+/*   components: {
     Shows,
-    NewShows
-  }
+    Details
+  } */
 }
 </script>
 

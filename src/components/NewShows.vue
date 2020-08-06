@@ -1,4 +1,5 @@
-<template>  <div class="card">
+<template>
+<div class="card">
     <div class="card-content  yellow darken-1 white-text center-align">
       <span class="card-title">NEW SHOW</span>
     </div>
@@ -47,7 +48,7 @@
             </div>
         </form>
     </div>
-  </div>
+</div>
 </template>
 <script>
 import { db } from '@/firebase';
@@ -57,7 +58,7 @@ export default {
         return {
             title: '',
             network: '',
-            numberOfSeasons: 0,
+            numberOfSeasons: '',
             genres:[],
             isCurrent: true
         }
@@ -78,7 +79,7 @@ export default {
         // Ahora vaciamos el formulario
         this.title = '';
         this.network = '';
-        this.numberOfSeasons = null;
+        this.numberOfSeasons = '';
         this.genres = [];
         this.isCurrent = true;
     }
