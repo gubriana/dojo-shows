@@ -1,8 +1,6 @@
 <template>
-  <div>
-  <div class="card">
+    <div class="card">
       <div class="card-content red darken-1 white-text center-align">
-        
           <span class="card-title">{{title}}</span>
       </div>
       <div class="card-content">   
@@ -26,7 +24,6 @@
         </table>
       </div>
     </div>
-   </div>
 </template>
 <script>
 import { db } from '@/firebase'; 
@@ -73,3 +70,9 @@ export default {
     }
 } */
 </script>
+<style scoped>
+.container {
+  width: 100%;
+  height: 100%;
+}
+</style>

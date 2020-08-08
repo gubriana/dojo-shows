@@ -40,5 +40,8 @@ export default {
   .card {
     margin: 3rem 0 3rem 0;
   }
+  html {
+    background-color: #424242;
+  }
 </style>
     
